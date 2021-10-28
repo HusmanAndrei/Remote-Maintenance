@@ -1,0 +1,10 @@
+---
+- name: Execute routine update task
+  hosts: id1
+  become: yes
+  become_user: root
+  tasks:
+     - name: What can be done
+       apt:
+         name: vim
+         state: latest

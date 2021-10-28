@@ -1,0 +1,1 @@
+ansible-playbook mytask.yml --extra-vars "ansible_sudo_pass=andreih98"
